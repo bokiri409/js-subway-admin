@@ -1,0 +1,36 @@
+{
+  "name": "Mission2",
+  "version": "1.0.0",
+  "description": "<p align=\"middle\" >\r   <img width=\"200px;\" src=\"./src/images/subway_emoji.png\"/>\r </p>\r <h2 align=\"middle\">level1 - 지하철 노선도 관리 SPA</h2>\r <p align=\"middle\">Browser History API를 이용해 구현하는 지하철 노선도 관리 SPA</p>\r <p align=\"middle\">\r   <img src=\"https://img.shields.io/badge/version-1.0.0-blue?style=flat-square\" alt=\"template version\"/>\r   <img src=\"https://img.shields.io/badge/language-html-red.svg?style=flat-square\"/>\r   <img src=\"https://img.shields.io/badge/language-css-blue.svg?style=flat-square\"/>\r   <img src=\"https://img.shields.io/badge/language-js-yellow.svg?style=flat-square\"/>\r   <img src=\"https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square\"/>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokiri409/js-subway-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bokiri409/js-subway-admin/issues"
+  },
+  "homepage": "https://github.com/bokiri409/js-subway-admin#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
